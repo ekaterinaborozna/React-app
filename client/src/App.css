@@ -1,0 +1,222 @@
+.App {
+    text-align: center;
+/*    font-family: 'Proxima Nova Cn Rg' !important;*/
+     font-family: 'Roboto' !important;
+}
+@font-face {
+	font-family: 'Proxima Nova Cn Lt';
+	src: url('ШрифтPN/ProximaNovaCond-LightIt.eot');
+	src: local('ШрифтPN/Proxima Nova Condensed Light Italic'), local('ProximaNovaCond-LightIt'),
+		url('ШрифтPN/ProximaNovaCond-LightIt.eot?#iefix') format('embedded-opentype'),
+		url('ШрифтPN/ProximaNovaCond-LightIt.woff') format('woff'),
+		url('ШрифтPN/ProximaNovaCond-LightIt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+.App-name{
+    margin: 5px; 
+    margin-top: 8px;  
+}
+h3{
+  margin-bottom: 0px;    
+}
+#play{
+color: #CCCCCC;    
+}
+#track{
+    width: 85%;
+}
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}*/
+
+.App-header {
+    background-color: #0c0c09;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-bottom: 3px;
+    min-height: 50%;
+    height: 108px;
+}
+
+.App-link {
+    color: white;
+}
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+b {
+    border: 3px solid #00EB09;
+    /*color: greenyellow;*/
+    border-top: 0px solid #0000FF;
+    border-right: 0px solid #0000FF;
+    border-left: 0px solid #0000FF;
+}
+
+.colone {
+    position: absolute;
+    width: 413px;
+    height: 397px;
+    left: 324px;
+    top: 290px;
+    border: 2px solid #0c0c09;
+
+    /*color: #062BEE;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    box-sizing: border-box;
+    
+    background-color: white;
+}
+
+.headers {
+    /*position: absolute;*/
+    /*width: 300px;
+height: 29px;*/
+    /*left: 324px;*/
+    /*top: 246px;*/
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    /*line-height: 29px;*/
+
+    color: #333343;
+}
+
+/*html {
+
+    background: #7A7A7A !important;
+
+}*/
+
+li {
+    text-align: left;
+    
+}
+.btn btn-warning btn btn-light {
+    margin: 5px; 
+    margin-bottom: 50% !important;
+    border: px solid transparent;
+    background-color: white !important;
+    color: black;
+}
+.btn btn-warning btn btn-light:hover{
+    border-color: black;
+}
+.btn-light {
+  background-color: white !important; 
+    border-radius: 0px;
+}
+#add{
+background-color: #959595 !important ; 
+    color: white ;
+}
+#addnew{
+background-color: #959595 !important ;  
+    color: white ;
+    
+}
+#print{
+    font-size: 25px;
+  background-color: white!important; 
+        border-color: black;
+        border-radius: 0px;
+    color: black    ;
+ font-family: 'Roboto' !important;   
+    /*position: absolute;*/
+width: 143px;
+/*height: 40px;*/
+
+margin-top: 33px;
+}
+
+div.containerbutpanel{
+    /*font-family: 'Proxima Nova Cn Rg' !important;  */
+    font-family: Roboto !important;
+   /* background-color: #7A7A7A!important; */
+}
+.btnpanel {
+    margin:5px; 
+}
+div.row{
+ background-color: white !important; 
+ 
+/* border: 1px solid #a7a7a7;*/
+}
+.btn-delete{
+padding:1%; 
+    
+}
+div#text{
+    text-align: left;
+    text-decoration: none;
+     border: 3px solid black;
+  /*  font-family: 'Proxima Nova Cn Rg' !important; */
+    font-family: 'Roboto' !important;
+}
+.col headers{
+    margin-top: 150px !important;
+}
+.player {
+            width: 600px;
+        }
+
+        .player video {
+            width: 100%;
+        }
+
+        .player .progress {
+            background: #ccc;
+        }
+
+        .player .progress span {
+            display: block;
+            margin-top: 5px;
+            background: #5944ff;
+            height: 20px;
+            width: 0
+        }
+p{
+    margin-top: 25px !important;
+}
+#addinfo {
+    text-align: left;
+}
+.form-control{
+    width: 100%;
+    border-radius:0;
+}
+#deletebutton{
+    width:10%; 
+    padding: 0;
+}
+div.row.buttonpanel1{
+    height: 108px;
+    background-color: black;
+    
+}
+div.col.btnpanel{
+   background-color: black; 
+    margin: 0;
+    min-height: 108px;
+}
+h6{
+    min-height: 150px;
+}
